@@ -95,10 +95,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onStop() { super.onStop(); Toast.makeText(context, "onStop", duration).show(); }
     private void setBackgroundColor(String chosenColor, LinearLayout myScreen) {
 //hex color codes: 0xAARRGGBB AA:transp, RR red, GG green, BB blue
-        if (chosenColor.contains("red")) myScreen.setBackgroundColor(0xffff0000); //Color.RED
-        if (chosenColor.contains("green")) myScreen.setBackgroundColor(0xff00ff00); //Color.GREEN
-        if (chosenColor.contains("blue")) myScreen.setBackgroundColor(0xff0000ff); //Color.BLUE
-        if (chosenColor.contains("white")) myScreen.setBackgroundColor(0xffffffff); //Color.WHITE
+        if (chosenColor.contains("duc")) myScreen.setBackgroundColor(0xffff0000); //Color.RED
+        if (chosenColor.contains("buu")) myScreen.setBackgroundColor(0xff00ff00); //Color.GREEN
+        if (chosenColor.contains("dung")) myScreen.setBackgroundColor(0xff0000ff); //Color.BLUE
+        if (chosenColor.contains("son")) myScreen.setBackgroundColor(0xffffffff); //Color.WHITE
     } //setBackgroundColor
     private void saveStateData(String chosenColor) {
 //this is a little <key,value> table permanently kept in memory

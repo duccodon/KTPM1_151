@@ -17,7 +17,7 @@
             android:id="@+id/editText1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Pick background (red, green, blue, white)"
+            android:hint="Pick background (Duc: red, Buu: green, Dung: blue, Son: white)"
             android:ems="10" />
 
         <Button
